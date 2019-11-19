@@ -4,6 +4,8 @@ html {
 }
 
 body {
+  height: 100%;
+  color: white;
   background: #9796f0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     #fbc7d4,
@@ -13,33 +15,57 @@ body {
     #fbc7d4,
     #9796f0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-nav {
-  margin: 10px 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.name {
-  font-size: 26px;
-  margin-left: 20px;
-}
-
-.logo {
-  width: 80px;
-  height: 80px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 30px;
   text-align: center;
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.intro {
-  font-size: 20px;
-  max-width: 800px;
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.section-intro {
+  font-size: 30px;
+}
+
+.section-intro > p > span {
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+
+.social {
+  width: 100%;
+  text-align: center;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+}
+
+.social-link {
+  fill: white;
+}
+
+.social-link:hover {
+  fill: #8dd6f9;
 }
