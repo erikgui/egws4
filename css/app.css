@@ -188,3 +188,13 @@ dd {
 dd > span {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.section-art {
+}
+
+.section-art-container {
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+}
